@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 
 import "./CurrencyConverter.scss"
-import CurrencySelector from "./CurrencySelector.jsx"
+// import CurrencySelector from "./CurrencySelector.jsx"
 
 
 export default function CurrencyConverter() {
@@ -21,7 +21,7 @@ export default function CurrencyConverter() {
       <div className="converting-section">
         <span>Amount</span>
         <div className="currency-input">
-          <CurrencySelector value={fromCurrency} onChange={setFromCurrency}/>
+          {/* <CurrencySelector value={fromCurrency} onChange={setFromCurrency}/> */}
           <input type="number" className="block"/>
         </div>
       </div>
