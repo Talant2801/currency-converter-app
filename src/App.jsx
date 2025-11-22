@@ -1,4 +1,4 @@
-import CurrencyConverter from "./components/CurrencyConverter/CurrenycConverter.jsx"
+import CurrencyConverter from "./components/CurrencyConverter/CurrencyConverter.jsx"
 
 function App() {
   return (

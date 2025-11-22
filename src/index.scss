@@ -5,3 +5,17 @@
 body {
   background-color: oklch(88.2% 0.059 254.128);
 }
+
+span {
+  color: #5a5a5a;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
